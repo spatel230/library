@@ -1,0 +1,29 @@
+
+public class Book {
+	private String Title;
+	private String Author;
+	private Boolean Status;
+	public Book(String x, String y, Boolean z) {
+		Title=x;
+		Author=y;
+		Status=z;
+	}
+	public void setTitle(String x) {
+		Title=x;
+	}
+	public void setAuthor(String x) {
+		Author=x;
+	}
+	public void setStatus(Boolean x) {
+		Status=x;
+	}
+	public String getTitle() {
+		return Title;
+	}
+	public String getAuthor() {
+		return Author;
+	}
+	public Boolean getStatus() {
+		return Status;
+	}
+}
